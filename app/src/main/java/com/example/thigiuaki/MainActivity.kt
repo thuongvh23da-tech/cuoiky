@@ -176,7 +176,7 @@ fun ThigiuakiApp() {
                     cartItems = cartItems,
                     onBack = { currentScreen = Screen.Cart },
                     onOrderPlaced = {
-                        currentScreen = Screen.OrderHistory
+                        currentScreen = Screen.CustomerHome
                     }
                 )
 

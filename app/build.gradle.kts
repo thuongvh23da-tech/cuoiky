@@ -88,6 +88,10 @@ dependencies {
 
     // App Check (Bảo mật)
     implementation("com.google.firebase:firebase-appcheck-playintegrity")
+    implementation(libs.firebase.auth)
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
     debugImplementation("com.google.firebase:firebase-appcheck-debug") // Chỉ dùng trong debug
 
     // Sử dụng Version Catalog (libs)
